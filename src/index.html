@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Delofon contract seal</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/fonts/djsans/djsans.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="seal-wrapper">
+  <div class="seal-form">
+
+    <table class="table table-sm small">
+      <tbody>
+      <tr>
+        <td>id</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="id" name="id" placeholder="id" value="73141">
+        </td>
+      </tr>
+      <tr>
+        <td>status:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="status" name="status" placeholder="status" value="1">
+        </td>
+      </tr>
+      <tr>
+        <td>send_date:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="send_date" name="send_date" placeholder="send_date" value="30.10.2023 13:10:54">
+        </td>
+      </tr>
+      <tr>
+        <td>phone:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="phone" name="phone" placeholder="phone" value="79172791557">
+        </td>
+      </tr>
+      <tr>
+        <td>cost:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="cost" name="cost" placeholder="cost" value="3.90">
+        </td>
+      </tr>
+      <tr>
+        <td>sender_id:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="sender_id" name="sender_id" placeholder="sender_id" value="Delofon">
+        </td>
+      </tr>
+      <tr>
+        <td>status_name:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="status_name" name="status_name" placeholder="status_name" value="Доставлено">
+        </td>
+      </tr>
+      <tr>
+        <td>message:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="message" name="message" placeholder="message" value="Код для подписания Дополнительного соглашения: 18038">
+        </td>
+      </tr>
+      <tr>
+        <td>type:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="type" name="type" placeholder="type" value="0">
+        </td>
+      </tr>
+      <tr>
+        <td>sms_cnt:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="sms_cnt" name="sms_cnt" placeholder="sms_cnt" value="1">
+        </td>
+      </tr>
+      <tr>
+        <td>flag:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="flag" name="flag" placeholder="flag" value="0">
+        </td>
+      </tr>
+      <tr>
+        <td>IP:</td>
+        <td>
+          <input type="text" class="form-control form-control-sm" id="ip" name="ip" placeholder="195.246.111.100">
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="seal-actions">
+      <button class="btn btn-sm btn-outline-secondary" id="refresh">Обновить</button>
+    </div>
+  </div>
+  <section>
+    <div class="seal">
+      <div class="seal-header">
+        ДОКУМЕНТ ПОДПИСАН
+        <br>ПРОСТОЙ ЭЛЕКТРОННОЙ ПОДПИСЬЮ
+        <br>(с применением СМС-подтверждения)
+      </div>
+      <div class="seal-body">
+        ТЕХНИЧЕСКАЯ ИНФОРМАЦИЯ О ПОДТВЕРЖДЕНИИ:
+        <br>id: <span data-target="id">73141</span>
+        <br>status: <span data-target="status">1</span>
+        <br>last_date: <span data-target="last_date">30.10.2023 13:10:56</span>
+        <br>last_timestamp: <span data-target="last_timestamp">1698660656</span>
+        <br>send_date: <span data-target="send_date">30.10.2023 13:10:54</span>
+        <br>send_timestamp: <span data-target="send_timestamp">1698660654</span>
+        <br>phone: <span data-target="phone">79172791557</span>
+        <br>cost: <span data-target="cost">3.90</span>
+        <br>sender_id: <span data-target="sender_id">Delofon</span>
+        <br>status_name: <span data-target="status_name">Доставлено</span>
+        <br>message: <span data-target="message">Код для подписания Дополнительного соглашения: 18038</span>
+        <br>type: <span data-target="type">0</span>
+        <br>sms_cnt: <span data-target="sms_cnt">1</span>
+        <br>flag: <span data-target="flag">0</span>
+        <br><br>ИНФОРМАЦИЯ ОБ ИНТЕРНЕТ-СОЕДИНЕНИИ:
+        <br>IP: <span data-target="ip">195.246.111.100</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+<script src="assets/script.js"></script>
+</body>
+</html>
